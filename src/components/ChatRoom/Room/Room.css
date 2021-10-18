@@ -1,0 +1,132 @@
+.ChatSpace {
+  height: 100%;
+  width: 50%;
+}
+.header {
+  border-bottom: 1px solid whitesmoke;
+  height: 8%;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* z-index: 99; */
+  background-color: rgba(0, 0, 0, 0.623);
+}
+.signOut {
+  height: 100%;
+  background-color: rgb(24, 22, 22);
+  width: 10rem;
+  font-size: 2rem;
+  color: white;
+  transition: 0.3s ease;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 10px;
+}
+
+.dpH {
+  margin-left: 1rem;
+  max-width: 30rem;
+}
+.dp {
+  height: 80%;
+  border-radius: 50px;
+}
+
+.display {
+  background-color: rgb(2, 4, 27);
+  height: 82%;
+  border-bottom: 3px solid green;
+  padding-right: 5rem;
+  overflow: auto;
+  transition: all 1s ease;
+
+  /* -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(10px);
+  background-color: #ccc; */
+}
+.display::-webkit-scrollbar {
+  width: 16px;
+}
+
+.display::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+}
+
+.display::-webkit-scrollbar-thumb {
+  background-color: #d4aa70;
+}
+.inp {
+  height: 9.5%;
+  background-color: rgb(13, 15, 19);
+}
+.msgField:focus {
+  outline: none;
+}
+.msgField {
+  width: 80%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.send {
+  width: 20%;
+  height: 100%;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: transparent;
+  color: green;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.ac {
+  color: rgba(0, 81, 255, 0);
+}
+@media screen and (max-width: 600px) {
+  .ChatSpace {
+    width: 100%;
+    height: 100%;
+  }
+  .send {
+  }
+}
+@media screen and (max-width: 1000px) {
+  .ChatSpace {
+    width: 100%;
+    height: 100%;
+  }
+  .send {
+  }
+}
+@media screen and (max-width: 799px) {
+  .send {
+    width: 7rem;
+  }
+}
+.dot {
+  width: 12px;
+  border-radius: 10px;
+  height: 12px;
+  margin-bottom: 0.5rem;
+  background-color: aquamarine;
+}
+.more:hover {
+  background-color: rgba(0, 0, 0, 0.562);
+}
+.more {
+  padding-top: 1rem;
+  /* border: 1px solid white; */
+  width: 2rem;
+  margin-right: 1rem;
+}
+.reply {
+  align-self: flex-end;
+  border: 1px solid white;
+}

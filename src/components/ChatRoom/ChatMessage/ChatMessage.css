@@ -1,0 +1,126 @@
+.msg {
+  padding: 0.8rem;
+  font-size: 1.5rem;
+}
+.msgIn {
+  padding: 0.5rem;
+  border-radius: 20px;
+  background-color: rgb(0, 140, 243);
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  user-select: text;
+  max-width: 25rem;
+}
+.right {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: -5rem;
+  margin-left: 5rem;
+}
+.time {
+  /* border: 1px solid white; */
+  margin-left: 1rem;
+  color: black;
+  user-select: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.MDP {
+  border-radius: 50px;
+  border: 2px solid rgb(42, 43, 42);
+  height: 3rem;
+  margin-top: 0.01rem;
+}
+.mName {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+  user-select: none;
+}
+
+.rightSpan {
+  border: 1px solid transparent;
+  margin-bottom: -2rem;
+  width: fit-content;
+  float: right;
+  text-align: center;
+}
+.replyDP {
+  width: 4rem;
+}
+@media screen and (max-width: 600px) {
+  .MDP {
+    height: 3rem;
+  }
+  .msgIn {
+    font-size: 1.25rem;
+  }
+  .time {
+    font-size: 1rem;
+  }
+  .mName {
+    font-size: 1rem;
+  }
+}
+.replyText {
+  padding-left: 1rem;
+  border-left: 5px solid rgb(0, 140, 243);
+  margin-left: -0.1rem;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  max-width: 60%;
+  border-radius: 1rem 0px 0px 0px;
+  color: grey;
+}
+.replyBubble {
+  border-radius: 0px 15px 15px;
+}
+.cmd {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 3rem;
+  border-right: 2px solid green;
+  width: 2rem;
+}
+.cmd:hover {
+  background-color: rgba(0, 68, 216, 0.726);
+}
+/* @media screen and (max-width: 600px) {
+} */
+.leftSpan {
+  display: flex;
+}
+
+.replyTextRight {
+  border: none;
+  border-right: 5px solid rgb(0, 140, 243);
+  margin: 0px;
+  border-top-right-radius: 15px;
+  text-align: right;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+.replyBubbleRight {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 0;
+}
+.replyParent {
+  font-size: 1.2rem;
+  padding-left: 1.1rem;
+}
+.replyParentRight {
+  max-width: 21rem;
+}
+@media screen and (max-width: 600px) {
+  .replyText {
+    max-width: 100%;
+  }
+  .MDP {
+    height: 2.2rem;
+  }
+  .msg {
+    padding-left: 0.3rem;
+  }
+}
